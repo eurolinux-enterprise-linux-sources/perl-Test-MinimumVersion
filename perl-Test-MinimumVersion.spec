@@ -1,6 +1,6 @@
 Name:		perl-Test-MinimumVersion
 Version:	0.101080
-Release:	10%{?dist}
+Release:	9%{?dist}
 Summary:	Check whether your code requires a newer perl
 License:	GPL+ or Artistic
 Group:		Development/Libraries
@@ -57,9 +57,6 @@ make test RELEASE_TESTING=1
 %{_mandir}/man3/*
 
 %changelog
-* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.101080-10
-- Mass rebuild 2013-12-27
-
 * Tue Oct 23 2012 Jitka Plesnikova <jplesnik@redhat.com> - 0.101080-9
 - Specify all dependencies.
 
